@@ -8,9 +8,9 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      <Route exact path="/personal-site" component={Home} />
-      <Route path="/personal-site/resume" component={Resume} />
-      <Route path="/personal-site/contact" component={Contact} />
+      <Route exact path="/" component={Home} />
+      <Route path="/resume" component={Resume} />
+      <Route path="/contact" component={Contact} />
     </>
   );
 }
