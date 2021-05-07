@@ -120,7 +120,7 @@ const Resume = () => {
             <NavBar />
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
-                    Working experience
+                    My path
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" align="center" className={`${classes.yearlyTimeLine} ${classes.timeLineItem}`}>
@@ -128,14 +128,43 @@ const Resume = () => {
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" className={classes.subheading}>
-                            UI Engineer
+                            Who knows?
                         </Typography>
                         <Typography variant="body1" className={classes.body1}>
-                            JP Morgan
+                            JP Morgan Engineer :: Personal Projects
                         </Typography>
                         <Typography variant="subtitle1" className={classes.subtitle1}>
-                            Working as a full time software engineer
+                            Continue learning in my role as an engineer and also developing interesting personal projects that come to my mind
                         </Typography>
+                    </Box>
+                    <Typography variant="h2" align="center" className={`${classes.yearlyTimeLine} ${classes.timeLineItem}`}>
+                        2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" className={classes.subheading}>
+                            Personal Projects
+                            </Typography>
+                        <Typography variant="body1" className={classes.body1}>
+                            Mercado Libre Integration To Banchero Sanitarios S.A
+                            </Typography>
+                        <Typography variant="subtitle1" className={classes.subtitle1}>
+                            - Developed app integration using AUTH 2.0 and App Script
+                            </Typography>
+                        <Typography variant="subtitle1" className={classes.subtitle1}>
+                            - Managed API requests to dump data into the google ecosystem
+                            </Typography>
+                        <Typography variant="body1" className={classes.body1}>
+                            EstacionApp
+                            </Typography>
+                        <Typography variant="subtitle1" className={classes.subtitle1}>
+                            - Developed login using Firebase, Javascript and Kotlin
+                            </Typography>
+                        <Typography variant="subtitle1" className={classes.subtitle1}>
+                            - Developed login using Firebase, Javascript and Kotlin
+                            </Typography>
+                        <Typography variant="subtitle1" className={classes.subtitle1}>
+                            - Designed the look and feel of the app
+                            </Typography>
                     </Box>
                     <Typography variant="h2" align="center" className={`${classes.yearlyTimeLine} ${classes.timeLineItem}`}>
                         2019
@@ -148,25 +177,24 @@ const Resume = () => {
                             JP Morgan
                         </Typography>
                         <Typography variant="subtitle1" className={classes.subtitle1}>
-                            lorem ipsum
+                            Hired by the company, I took on the role of a Software Engineer where I learnt the best practices about coding UI and managed several clients by support tickets of the developed apps
                         </Typography>
                     </Box>
                     <Typography variant="h2" align="center" className={`${classes.yearlyTimeLine} ${classes.timeLineItem}`}>
-                        2019
+                        2016
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" className={classes.subheading}>
-                            UI Engineer
+                            System Engineer Student
                         </Typography>
                         <Typography variant="body1" className={classes.body1}>
-                            JP Morgan
+                            Universidad Tecnológica Nacional (UTN)
                         </Typography>
                         <Typography variant="subtitle1" className={classes.subtitle1}>
-                            lorem ipsum
+                            Started my career as a System Engineer at UTN where my passion for coding begins
                         </Typography>
                     </Box>
                 </Box>
-
             </Box>
         </>
     );

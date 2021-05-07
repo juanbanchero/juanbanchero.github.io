@@ -8,12 +8,16 @@ const useStyles = makeStyles({
     particles: {
         position: "absolute",
         opacity: 0.5,
+    },
+    mainContainer: {
+        overflow: "hidden",
+        height: "100%"
     }
 });
 const Home = () => {
     const classes = useStyles();
     return (
-        <div>
+        <div className={classes.mainContainer}>
             <NavBar />
             <Header />
             <Particles canvasClassName={classes.particles} params={{

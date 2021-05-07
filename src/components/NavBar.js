@@ -21,10 +21,8 @@ import {
 import {
     AssignmentInd,
     Home,
-    Apps,
-    ContactMail,
     Menu,
-    MailRounded,
+    Info,
 } from '@material-ui/icons';
 
 // CSS STYLES
@@ -87,12 +85,17 @@ const menuItems = [
         path: "/resume",
     },
     {
+        icon: <Info />,
+        textToDisplay: "About Me",
+        path: "/aboutme",
+    },
+];
+/*
+    {
         icon: <ContactMail />,
         textToDisplay: "Contact Me",
         path: "/contact",
     },
-];
-/*
     {
         icon: <Apps />,
         textToDisplay: "Portfolio",

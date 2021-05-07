@@ -9,7 +9,6 @@ import {
 } from '@material-ui/core';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import NavBar from './NavBar';
-import Footer from './Footer';
 
 const useStyles = makeStyles(theme => ({
     form: {
