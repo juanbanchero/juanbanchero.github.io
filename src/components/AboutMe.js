@@ -42,7 +42,7 @@ const AboutMe = () => {
                                 UI Software Engineer with 2+ years of experience. I'm always eager to learn and keep growing my
                                 knowledge as I work. I am a fan of movies and I listen to Cerati more times that you can count.
                                 Always trying to be more productive, I tested every to do list/note taking/focus app which is nonsense but only stayed with
-                                <a href="https://culturedcode.com/things/" target="_blank" rel='noreferrer noopener'> Things</a>,<a href="https://www.craft.do/" target="_blank" rel='noreferrer noopener'> Craft</a> and <a href="https://calendar.google.com/" target="_blank" rel='noreferrer noopener'>Google Calendar</a>.
+                                <a href="https://culturedcode.com/things/" target="_blank" rel='noreferrer noopener'> Things</a>,<a href="https://workflowy.com/hello/" target="_blank" rel='noreferrer noopener'> Workflowy</a> and <a href="https://calendar.google.com/" target="_blank" rel='noreferrer noopener'>Google Calendar</a>.
                                 You can get in touch with me in <a href="https://www.linkedin.com/in/juanbanchero" target="_blank" rel='noreferrer noopener'>Linkedin</a>, <a href="mailto:juanbanche@gmail.com" target="_blank" rel='noreferrer noopener'>Gmail</a> or you could see my <a href="https://github.com/juanbanchero" target="_blank" rel='noreferrer noopener'>Github.</a>
                             </Typography>
                         </Box>
